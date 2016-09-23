@@ -24,9 +24,16 @@ public class Main {
 		EntityManager entityManager = EntityManagerUtil.createRelationalEntityManager();
 		getServices(entityManager);
 		
+		System.out.println("Iniciando inserção de departamentos");
 		departamentoService.insert(8);
+		
+		System.out.println("Iniciando inserção de funcionarios");
 		funcionarioService.insert(100000);
+		
+		System.out.println("Iniciando leitura de funcionarios e departamentos");
 		funcionarioService.findAll();
+		
+		System.out.println("Iniciando atualizaççao de funcionarios");
 		funcionarioService.updateDepartamento();
 	}
 }
