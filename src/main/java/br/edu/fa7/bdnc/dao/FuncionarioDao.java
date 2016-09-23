@@ -9,5 +9,4 @@ public class FuncionarioDao extends GenericDao<Funcionario> {
 	public FuncionarioDao(EntityManager entityManager) {
 		super(entityManager);
 	}
-
 }

@@ -15,6 +15,13 @@ public class Departamento extends Model {
 	@OneToMany(mappedBy = "departamento")
 	private List<Funcionario> functionarios;
 
+	public Departamento(Long id) {
+		this.id = id;
+	}
+	
+	public Departamento() {
+	}
+
 	public List<Funcionario> getFunctionarios() {
 		return functionarios;
 	}

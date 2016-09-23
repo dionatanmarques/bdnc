@@ -24,6 +24,9 @@ public class Main {
 		EntityManager entityManager = EntityManagerUtil.createRelationalEntityManager();
 		getServices(entityManager);
 		
+		departamentoService.insert(8);
 		funcionarioService.insert(100000);
+		funcionarioService.findAll();
+		funcionarioService.updateDepartamento();
 	}
 }
