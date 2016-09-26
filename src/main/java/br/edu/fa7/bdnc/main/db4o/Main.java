@@ -28,13 +28,16 @@ public class Main {
 		departamentoService.insert(8);
 		
 		System.out.println("Iniciando inserção de funcionarios");
-		funcionarioService.insert(100000);
+		funcionarioService.insert(1000000);
 		
 		System.out.println("Iniciando leitura de funcionarios e departamentos");
 		funcionarioService.findAll();
 		
 		System.out.println("Iniciando atualizaççao de funcionarios");
 		funcionarioService.updateDepartamento();
+		
+		System.out.println("Iniciando remoção de funcionarios");
+		funcionarioService.deleteAll();
 		
 		long fim = System.currentTimeMillis();
 		System.out.println("Finalizados os teste em " + (fim - inicio) + " milissegundos");

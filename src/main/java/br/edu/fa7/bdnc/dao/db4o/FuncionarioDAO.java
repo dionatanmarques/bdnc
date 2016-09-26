@@ -18,6 +18,10 @@ public class FuncionarioDAO {
 		db.store(funcionario);
 	}
 	
+	public void delete(Funcionario funcionario){
+		db.delete(funcionario);
+	}
+	
 	public void commit(){
 		this.db.commit();
 		this.db.close();
