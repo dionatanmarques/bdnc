@@ -72,4 +72,18 @@ public class FuncionarioService {
 		
 	}
 
+	public void removeAll() {
+		funcionarioDao.beginTransaction();
+		
+		System.out.println("Inicialdo LIMPEZA da tabela FUNCIONARIO");
+		long inicio = System.currentTimeMillis();
+		
+		funcionarioDao.removeAll(Funcionario.class);
+		funcionarioDao.commit();
+		
+		long fim = System.currentTimeMillis();
+		System.out.println("Todos os funcionario removidos em " + (fim - inicio) + " milissegundos");
+		
+	}
+
 }

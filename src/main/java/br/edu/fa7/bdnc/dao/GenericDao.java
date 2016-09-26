@@ -34,4 +34,10 @@ public class GenericDao<T> {
 		Query query = entityManager.createQuery(sql);
 		return query.getResultList();
 	}
+	
+	public void removeAll(Class<?> clazz) {
+		String delete = "DELETE FROM " + clazz.getSimpleName();
+		Query query = entityManager.createQuery(delete);
+		query.executeUpdate();
+	}
 }
