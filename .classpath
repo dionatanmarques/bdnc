@@ -23,21 +23,20 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/ant.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/bloat-1.0.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-all-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-bench.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-core-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-cs.optional-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-cs-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-db4ounit-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-instrumentation-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-nqopt-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-optional-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-osgi-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-osgi-test-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-taj-java5.jar"/>
-	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-tools-java5.jar"/>
-	<classpathentry kind="lib" path="lib"/>
+	<classpathentry kind="lib" path="lib/ant.jar"/>
+	<classpathentry kind="lib" path="lib/bloat-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-all-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-bench.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-core-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-cs-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-cs.optional-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-db4ounit-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-instrumentation-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-nqopt-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-optional-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-osgi-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-osgi-test-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-taj-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.0.276.16149-tools-java5.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
