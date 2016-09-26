@@ -38,5 +38,6 @@
 	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-osgi-test-java5.jar"/>
 	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-taj-java5.jar"/>
 	<classpathentry kind="lib" path="/home/allan/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-tools-java5.jar"/>
+	<classpathentry kind="lib" path="lib"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
