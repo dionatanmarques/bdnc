@@ -27,9 +27,9 @@ print("Iniciando inserção de funcionarios");
 
 var inicio = new Date().getTime();
 
-print("Iniciando inserção de 100000 funcionarios " + new Date());
+print("Iniciando inserção de 1000000 funcionarios " + new Date());
 
-for (var i = 1; i <= 100000; i++) {
+for (var i = 1; i <= 1000000; i++) {
 	db.funcionario.insert({
 		_id: i,
 		nome: "Funcionario - " + i,
@@ -37,7 +37,7 @@ for (var i = 1; i <= 100000; i++) {
 	});
 }
 
-print("Inserção de 100000 funcionarios finalizada " + new Date());
+print("Inserção de 1000000 funcionarios finalizada " + new Date());
 
 var fim = new Date().getTime();
 
@@ -70,3 +70,13 @@ var updates = db.funcionario.update({}, {
 var fim = new Date().getTime();
 
 print(updates.nModified + " funcionario(s) atualizados em " + (fim - inicio) + " milissegundos");
+
+print("Iniciando exclusão de funcionarios");
+
+var inicio = new Date().getTime();
+
+var updates = db.funcionario.remove({});
+
+var fim = new Date().getTime();
+
+print("funcionario(s) removidos em " + (fim - inicio) + " milissegundos");
